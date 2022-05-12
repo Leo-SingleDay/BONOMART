@@ -27,9 +27,10 @@
 
 ### 수행 업무
 -----
-- 회원관리 기능 개발
-- 회원 기능 관련 페이지 UI 구현
-- 회원 기능 관련 DB 설계
+- 메인페이지 발주 기능
+- 거래처 관련 기능 개발 및 UI
+- 회원 관련 페이지 UI 개발
+- DB 설계
 
 ### 사용 기술
 --------
@@ -105,25 +106,25 @@
 | <img src="https://user-images.githubusercontent.com/45419456/117929266-90de6800-b337-11eb-92e2-ce4df8ae55db.png"> | <img src="https://user-images.githubusercontent.com/45419456/117929376-b3708100-b337-11eb-9d09-fe2c7b83fad3.png">
 
 
-[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
+[//]: # "These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax"
 
-   [dill]: <https://github.com/joemccann/dillinger>
-   [git-repo-url]: <https://github.com/joemccann/dillinger.git>
-   [john gruber]: <http://daringfireball.net>
-   [df1]: <http://daringfireball.net/projects/markdown/>
-   [markdown-it]: <https://github.com/markdown-it/markdown-it>
-   [Ace Editor]: <http://ace.ajax.org>
-   [node.js]: <http://nodejs.org>
-   [Twitter Bootstrap]: <http://twitter.github.com/bootstrap/>
-   [jQuery]: <http://jquery.com>
-   [@tjholowaychuk]: <http://twitter.com/tjholowaychuk>
-   [express]: <http://expressjs.com>
-   [AngularJS]: <http://angularjs.org>
-   [Gulp]: <http://gulpjs.com>
+[dill]: <https://github.com/joemccann/dillinger>
+[git-repo-url]: <https://github.com/joemccann/dillinger.git>
+[john gruber]: <http://daringfireball.net>
+[df1]: <http://daringfireball.net/projects/markdown/>
+[markdown-it]: <https://github.com/markdown-it/markdown-it>
+[Ace Editor]: <http://ace.ajax.org>
+[node.js]: <http://nodejs.org>
+[Twitter Bootstrap]: <http://twitter.github.com/bootstrap/>
+[jQuery]: <http://jquery.com>
+[@tjholowaychuk]: <http://twitter.com/tjholowaychuk>
+[express]: <http://expressjs.com>
+[AngularJS]: <http://angularjs.org>
+[Gulp]: <http://gulpjs.com>
 
-   [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
-   [PlGh]: <https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md>
-   [PlGd]: <https://github.com/joemccann/dillinger/tree/master/plugins/googledrive/README.md>
-   [PlOd]: <https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md>
-   [PlMe]: <https://github.com/joemccann/dillinger/tree/master/plugins/medium/README.md>
-   [PlGa]: <https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md>
+[PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
+[PlGh]: <https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md>
+[PlGd]: <https://github.com/joemccann/dillinger/tree/master/plugins/googledrive/README.md>
+[PlOd]: <https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md>
+[PlMe]: <https://github.com/joemccann/dillinger/tree/master/plugins/medium/README.md>
+[PlGa]: <https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md>
