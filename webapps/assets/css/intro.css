@@ -1,0 +1,128 @@
+@charset "UTF-8";
+body {
+    background: #4e73df;
+    overflow: auto;
+}
+
+@keyframes trans1 {
+    /* 시작 스타일 ~ 끝 스타일 */
+
+    from {
+        background: #4e73df;
+        border: 1px solid #4e73df;
+        color: #4e73df;
+    } to {
+        background: white;
+        border: 1px solid white;
+        color: #4e73df;
+    }
+}
+
+@keyframes trans2 {
+    /* 시작 스타일 ~ 끝 스타일 */
+
+    from {
+        background: #4e73df;
+        border: 1px solid #4e73df;
+        color: #4e73df;
+    } to {
+        background: white;
+        border: 1px solid lightgray;
+        color: #4e73df;
+    }
+}
+
+@keyframes trans3 {
+    /* 시작 스타일 ~ 끝 스타일 */
+
+    from {
+        background: #4e73df;
+        border: 1px solid #4e73df;
+        color: #4e73df;
+    } to {
+        background: #4e73df;
+        border: 1px solid white;
+        color: white;
+    }
+}
+
+#wrap {
+    width: 850px;
+    height: 510px;
+    background: white;
+    text-align: center;
+    color: #4e73df;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed; 
+    animation-name: trans1;  /* 선언한 keyframe 사용 */
+    animation-duration: 3s;  /* 애니매이션 실행 시간 */
+    animation-iteration-count: 1;
+}
+
+@media screen and (max-width : 1280px), (max-height : 800px) {
+    #wrap {
+    width: 650px;
+    height: 450px;
+    background: white;
+    text-align: center;
+    color: #4e73df;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    margin-left: 2%;
+    position: fixed; 
+    }
+
+}
+
+#welcome {
+    font-size: 500%;
+    font-weight: bolder;
+    max-width: 100%;
+    margin-top: 50px;
+}
+
+#loginArea {
+    font-size: 20pt;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+#loginBtn:hover, #memberJoinBtn:hover {
+    cursor: pointer;
+}
+
+.form-control-sm {
+    width: 250px;
+    height: 40px;
+    animation-name: trans2;  /* 선언한 keyframe 사용 */
+    animation-duration: 3s;  /* 애니매이션 실행 시간 */
+    animation-iteration-count: 1;
+    
+}
+
+.btns {
+    margin-top: 50px;
+}
+
+button {
+    width: 120px;
+    height: 40px;
+    background: #4e73df;
+    border: 1px solid white;
+    border-radius: 0.3rem;
+    font-weight: bold;
+    font-size: 18pt;
+    color: white;
+    animation-name: trans3;  /* 선언한 keyframe 사용 */
+    animation-duration: 3s;  /* 애니매이션 실행 시간 */
+    animation-iteration-count: 1;
+}
+
+svg {
+    margin-bottom: 20px;
+}
